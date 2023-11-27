@@ -98,4 +98,5 @@ table, th, td {
 
 .error {
     color: red;
+    padding: 5px;
 }
