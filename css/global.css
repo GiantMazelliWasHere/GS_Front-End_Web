@@ -10,6 +10,7 @@
     margin:0;
     padding:0;
     border:0;
+    font-family:'Roboto', sans-serif;
 }
 
 /* Menu */
@@ -47,6 +48,23 @@
 }
 
 /* Conteúdo */
+/*Página home*/
+
+#texto{
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#cta{
+    margin-top: 15px;
+}
+
+#link{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
 
 /* Página Problema & solução */
 .container-python{
@@ -55,7 +73,6 @@
     margin-top: 5px;
     padding: 5px;
     text-align: justify;
-    font-family: 'Roboto', sans-serif;
     font-size: 20px;
 }
 
@@ -110,9 +127,37 @@
     grid-area: blank;
 }
 
+/*Página Demonstração e Solução*/
+.container-demonstracao-videos{
+    display: grid;
+    grid-template-areas: "python edge";
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+#python{
+    grid-area: "python";
+}
+
+#edge{
+    grid-area: "edge";
+}
+
+.container-demonstracao-texto{
+    display: flex;
+    justify-content: center;
+}
+#container-link-site{
+    margin-top: 60px;
+}
+
+#video{
+    margin-left: 50px;
+    margin-top: 20px;
+}
 
 
-/* Formulário */
+/* Formulário página contato */
 .container-form {
     display: flex;
     justify-content: center;
