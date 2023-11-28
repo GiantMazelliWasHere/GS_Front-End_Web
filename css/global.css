@@ -48,6 +48,69 @@
 
 /* Conteúdo */
 
+/* Página Problema & solução */
+.container-python{
+    margin-left: 25px;
+    margin-right: 20px;
+    margin-top: 5px;
+    padding: 5px;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+#titulo{
+    color: #0b841c;
+}
+
+#paragrafo{
+    margin-top: 15px;
+}
+
+#lista{
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.container-calculo{
+    display: grid;
+    grid-template-areas: 
+    "medicamentos sangue"
+    "gastro gonorreia"
+    "urinaria blank";
+    justify-content: center;
+}
+
+.grafico {
+    width: 450px;
+    height: 300px;
+}
+
+#medicamentos{
+    grid-area: medicamentos;
+}
+
+#sangue{
+    grid-area: sangue;
+}
+
+#gastro{
+    grid-area: gastro;
+}
+
+#gonorreia{
+    grid-area: gonorreia;
+}
+
+#urinaria{
+    grid-area: urinaria;
+}
+
+#blank{
+    grid-area: blank;
+}
+
+
 
 /* Formulário */
 .container-form {
